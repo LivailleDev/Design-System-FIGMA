@@ -21,9 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm ci --legacy-peer-deps 
 
-      - name: Install Storybook
-        run: npm install --save-dev @storybook/react
-   
       - name: Build Storybook
         run: npm build-storybook
    
